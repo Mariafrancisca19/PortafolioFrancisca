@@ -32,3 +32,41 @@ margin-top: 50px;
 margin-inline-start:  170px;
 
 }
+
+/* Crear pagina para regirtrarse*/
+
+/* CENTRAR TITULO DEL REGISTRO*/
+/*.centro{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}*/
+
+.new{
+text-align: center;
+margin-top: 600px;
+}
+
+
+
+.registro{
+    display: flex;
+    align-content: center;
+text-align: center;
+    flex-direction: column;
+    width: 500px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.registro input{
+    text-align: center;
+    font-size: 30px;
+}
+
+.registro button{
+    text-align: center;
+    font-size: 30px;
+}
