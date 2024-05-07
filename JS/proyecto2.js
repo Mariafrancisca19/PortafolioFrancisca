@@ -1,7 +1,7 @@
 let inputNombre = document.getElementById("gmail")
 let inputContrasena= document.getElementById("pass")
 let iniciar=document.getElementById("iniciar")
-
+let btnCheckIn = document.getElementById("registrarse")
 let nombre;
 let clave;
 

@@ -1,36 +1,55 @@
-.regristro{
-font-size: 40px;
-margin-top: 600px;
-margin-inline-start: 900px;
+.body{
+background: white;
 }
 
+
+.regristro{
+font-size: 40px;
+margin-top: 400px;
+margin-inline-start: 900px;
+background-color: rgb(139, 150, 153);
+width: 550px;
+height: 500px;
+border-style: solid;
+border-radius:70px 70px 70px 70px
+
+}
+
+.inicio{
+text-align: center;
+
+}
 
 
 .gmail{
     padding: 15px;
-
+    border-radius:70px 70px 70px 70px;
+margin-left: 50px;
 }
 
 .contra{
 padding: 15px;
 margin-left: 15px;
+border-radius:70px 70px 70px 70px
 }
 
 .iniciar{
 
     padding: 15px;
+    border-radius:70px 70px 70px 70px
 }
 
 .log{
-    margin-inline-start:180px;
+    margin-inline-start:230px;
 margin-top: 50px;
+
 }
 
 .registrarse{
 padding: 15px;
 margin-top: 50px;
-margin-inline-start:  170px;
-
+margin-inline-start:  220px;
+border-radius:70px 70px 70px 70px
 }
 
 /* Crear pagina para regirtrarse*/
@@ -70,3 +89,15 @@ text-align: center;
     text-align: center;
     font-size: 30px;
 }
+
+.enlaceRegistrarse{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+
+    a{
+        display: block;
+    }
+}
+
+
