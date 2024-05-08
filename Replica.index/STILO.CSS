@@ -1,0 +1,32 @@
+h1{
+font-size: 30px;
+
+}
+h2{
+text-align:right;
+
+}
+button{
+    padding: 30px;
+}
+.imagenes {
+display: flex;
+justify-content: space-between;
+
+}
+.Aprender {
+    text-align: center;
+}
+.button {
+    color: beige;
+    background-color: rgb(39, 118, 229);
+    margin-left: 673px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-left: 1210px;
+    text-decoration: underline;
+}

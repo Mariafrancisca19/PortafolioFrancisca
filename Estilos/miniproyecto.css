@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+
+
+.megusta{
+   background-color: rgb(199, 108, 255) ; 
+   font:white;
+   width: 30%;
+   margin-right: 20px;
+}
+
+.nomegusta{
+    font:white;
+    background-color: rgb(255, 43, 43);
+width: 30%;
+
+}
+
+#sub{
+    margin-top: 20px;
+}
+
