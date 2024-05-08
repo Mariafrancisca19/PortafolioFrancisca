@@ -8,7 +8,7 @@ let clave;
 function recuperarDatos(){
     nombre = inputNombre.value
     clave = inputContrasena.value
-
+        
 }
 
 iniciar.addEventListener("click",function() {
