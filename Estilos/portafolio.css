@@ -1,0 +1,20 @@
+.body{
+    background-color: rgb(255, 211, 154);
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+
+/* Centrar texto*/
+.nombre{
+text-align: center;
+
+}
+
+
+/*Imagen personal*/
+.francisca{
+    position: relative;
+    left:60%
+}

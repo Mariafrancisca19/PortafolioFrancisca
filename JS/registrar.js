@@ -2,27 +2,43 @@ const inputNombre = document.getElementById("nombre")
 const inputCorreo=document.getElementById("correo")
 const inputUsuario=document.getElementById("usuario")
 const inputContrsena=document.getElementById("contrase")
-
+//// recordar al array que debe de mantener los datos del localstorage
+let credencialesUsuario=[]
 let boton=document.getElementById("registrarse") 
   
 boton.addEventListener("click",function () {
-validarDatos()
+//validarDatos()
+
+//se reinicia
 
 
-    let credencialesUsuario=[]
-credencialesUsuario.push(inputNombre.value)
-credencialesUsuario.push(inputCorreo.value)
-credencialesUsuario.push(inputUsuario.value)               /*Guardar datos*/
-credencialesUsuario.push(inputContrsena.value)
+let data ={
 
-localStorage.setItem("nombres",credencialesUsuario)
-localStorage.setItem("correo",credencialesUsuario)
-localStorage.setItem("usuario",credencialesUsuario)
-localStorage.setItem("contrase",credencialesUsuario)
+    nombre : inputNombre.value,
+    correo : inputCorreo.value,
+    usuario : inputUsuario.value,
+    contrase: inputContrsena.value,
+
+};
 
 
-let valores=localStorage.getItem("nombres")
+
+ 
+credencialesUsuario.push(data)
+
+
+console.log(credencialesUsuario)
+
+localStorage.setItem("nombres", JSON.stringify(credencialesUsuario));
+
+
+
+let valores=JSON.parse(localStorage.getItem("nombres"));
 console.log(valores)
+
+alert("TE HAS REGISTRADO EXITOSAMENTE")
+
+//window.location.href= "proyecto2.html"
 })
 
 
@@ -38,7 +54,7 @@ registrarse.addEventListener("click",()=>{
 
 
 
-function validarDatos() {
+/*function validarDatos() {
     
 if (nombre.value=="") {
     alert( "Coloca tu nombre aca")
@@ -53,7 +69,7 @@ else {
         alert("Incorrecto")
     }
 }
-}
+}*/
 
 
 let correoLocalStorage=localStorage.getItem("correo")
