@@ -2,60 +2,28 @@ const inputNombre = document.getElementById("nombre")
 const inputCorreo=document.getElementById("correo")
 const inputUsuario=document.getElementById("usuario")
 const inputContrsena=document.getElementById("contrase")
-//// recordar al array que debe de mantener los datos del localstorage
-let credencialesUsuario=[]
 let boton=document.getElementById("registrarse") 
-  
-boton.addEventListener("click",function () {
-//validarDatos()
+//// guadar datos en el local
+let credencialesUsuario=JSON.parse(localStorage.getItem("nombres")) || []
 
-//se reinicia
-
-
-let data ={
-
-    nombre : inputNombre.value,
-    correo : inputCorreo.value,
-    usuario : inputUsuario.value,
-    contrase: inputContrsena.value,
-
-};
-
-
-
- 
-credencialesUsuario.push(data)
-
-
-console.log(credencialesUsuario)
-
-localStorage.setItem("nombres", JSON.stringify(credencialesUsuario));
-
-
-
-let valores=JSON.parse(localStorage.getItem("nombres"));
-console.log(valores)
-
-alert("TE HAS REGISTRADO EXITOSAMENTE")
-
-//window.location.href= "proyecto2.html"
-})
-
-
-function guardardatos() {
+function guardarDatos() {
+    let data ={
+        nombre : inputNombre.value,
+        correo : inputCorreo.value,
+        usuario : inputUsuario.value,
+        contrase: inputContrsena.value,
     
+    }
+    credencialesUsuario.push(data)
+
+    localStorage.setItem("nombres",JSON.stringify(credencialesUsuario))
+
 }
-
-registrarse.addEventListener("click",()=>{
-   guardardatos()
+boton.addEventListener("click",function () {
+    guardarDatos()
 })
-
 /*Validacion de datos*/
-
-
-
 /*function validarDatos() {
-    
 if (nombre.value=="") {
     alert( "Coloca tu nombre aca")
 } 

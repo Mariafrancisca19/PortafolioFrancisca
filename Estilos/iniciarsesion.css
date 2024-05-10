@@ -1,5 +1,7 @@
-.body{
-background-image: ;
+body{
+background-image: url("/Imagenes/Azul.jpg");
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 
@@ -7,11 +9,15 @@ background-image: ;
 font-size: 40px;
 margin-top: 400px;
 margin-inline-start: 900px;
-background-color: rgb(139, 150, 153);
+background-image:url("/Imagenes/Playa.jpg");
+background-size: cover;
+background-repeat: no-repeat;
 width: 550px;
 height: 500px;
 border-style: solid;
 border-radius:70px 70px 70px 70px
+
+
 
 }
 

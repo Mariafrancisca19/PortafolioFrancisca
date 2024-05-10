@@ -1,5 +1,9 @@
 .body{
-    background-color: rgb(255, 211, 154);
+    background-image: url("/Imagenes/flower-6206819_1280.jpg");
+    
+    background-size: cover ;
+background-repeat: no-repeat;
+
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     
@@ -17,4 +21,12 @@ text-align: center;
 .francisca{
     position: relative;
     left:60%
+
+
 }
+
+
+
+
+
+
