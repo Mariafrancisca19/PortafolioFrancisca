@@ -22,14 +22,16 @@ iniciar.addEventListener("click", () => {
     window.location.href="/Portafolio/portafoliopersonal.html"
    }
 
+
    if (validacionDeUsuario) {
-    alert("Datos Correctos")
-   
+    alert("Datos Correctos")   
     window.location.href="iniciarsesion.html"
    } else {
     alert("Datos inccorectos")
    }                   
 })
+
+
 
 
 

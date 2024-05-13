@@ -2,6 +2,8 @@ body{
 background-image: url("/Imagenes/Azul.jpg");
 background-size: cover;
 background-repeat: no-repeat;
+
+
 }
 
 
@@ -9,7 +11,7 @@ background-repeat: no-repeat;
 font-size: 40px;
 margin-top: 400px;
 margin-inline-start: 900px;
-background-image:url("/Imagenes/Playa.jpg");
+background-image: url("/Imagenes/aesthetic-collage-brown-you-are-beautiful.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 width: 550px;

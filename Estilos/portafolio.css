@@ -1,6 +1,5 @@
 .body{
-    background-image: url("/Imagenes/flower-6206819_1280.jpg");
-    
+    background-image: url("/Imagenes/imagen2.jpg");
     background-size: cover ;
 background-repeat: no-repeat;
 
@@ -26,7 +25,89 @@ text-align: center;
 }
 
 
+.uno{
+position: absolute;
+margin-left: 45%;
+
+}
+
+.dos{
+    margin-left: 30%;
+    
+}
+
+.acerca1{
+    margin-bottom: 90px;
+margin-left: 200px;
+
+}
+
+.epizontes{
+    margin-right: 90px;
+margin-left: 90px;
+
+box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+}
+
+.doggy{margin-right:90px; 
+    box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+
+}
+
+.fut{
+
+    margin-right: 90px;
+    margin-left: 90px;
+      box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+}
+
+.tennis{margin-left: 90px;
+    box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+
+}
+
+.futsal{
+    margin-left: 200px;
+    box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+}
+/*sombreado a las imagenes*/
+
+.Doggy{
+    box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+
+}
+
+.tenis{
+    box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
+
+}
 
 
+.doggy2{
+    box-shadow: 15px 15px 15px 15px rgb(44, 46, 49);
 
+}
 
+.dos ul li a{
+   text-decoration: none;    /*quitarrles lo azul a las url*/
+   color: black;
+    
+}
+.dos ul li a:hover{
+text-shadow: 2px 1px 2px black;
+     
+
+ }
+ .negrita ul li a{
+     text-decoration:none ;
+    color: black;
+ }
+.negrita ul li a:hover{
+    text-shadow: 2px 1px 2px black;
+    
+}
+
+.negrita ul li a:hover{
+    color:rgb(255, 155, 155)
+         
+     }
