@@ -1,6 +1,6 @@
 .body{
     background-image: url("/Imagenes/imagen2.jpg");
-    background-size: cover ;
+    background-size: cover ;         /*estilo de fondo*/
 background-repeat: no-repeat;
 
     font-size: 40px;
@@ -21,7 +21,6 @@ text-align: center;
     position: relative;
     left:60%
 
-
 }
 
 
@@ -33,7 +32,7 @@ margin-left: 45%;
 
 .dos{
     margin-left: 30%;
-    
+  
 }
 
 .acerca1{
@@ -110,4 +109,12 @@ text-shadow: 2px 1px 2px black;
 .negrita ul li a:hover{
     color:rgb(255, 155, 155)
          
+     }
+
+
+     /*rotacion a las imagenes*/
+     
+     .habi{
+    position: relative;
+        margin-left:50%
      }

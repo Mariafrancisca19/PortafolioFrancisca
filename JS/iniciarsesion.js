@@ -19,19 +19,18 @@ iniciar.addEventListener("click", () => {
    console.log(inputCorreo.value)
 
    if (inputCorreo.value == Users[0].correo && inputContrasena.value==Users[0].contrase) {
+    
+    alert("Datos Correctos")   
     window.location.href="/Portafolio/portafoliopersonal.html"
+   }else {
+    alert("Datos inccorectos")
    }
 
-
-   if (validacionDeUsuario) {
+ if (validacionDeUsuario) {
     alert("Datos Correctos")   
     window.location.href="iniciarsesion.html"
    } else {
     alert("Datos inccorectos")
    }                   
 })
-
-
-
-
 
